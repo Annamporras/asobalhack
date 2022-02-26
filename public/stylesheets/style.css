@@ -1,0 +1,107 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto', 'sans-serif';
+  
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#iphone {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%
+
+}
+
+#iphone img {
+ width: 500px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.cardTeam img{
+ width: 80px;
+ margin-left: 20px;
+}
+
+.searchBar{
+  margin-bottom: 20px;
+}
+
+body {
+  width: 418px;
+  background-color: white;
+}
+
+#inlineFrameExample {
+  margin-left: 100%;
+  margin-top: 100px;
+}
+/* HOME */
+
+.cabecera {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cabecera img{
+  height: 200px;
+}
+
+.icon {
+  width: 100px;
+}
+
+.teamName {
+  font-size: 50px;
+  margin-top: 50px
+}
+
+.position {
+  display: flex;
+  font-size: 2em;
+  
+}
+
+.position h1{
+  font-size: 80px;
+}
+
+.trofeo {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.cleanButton{
+  background: none;
+  border: none;
+}
+
+.vsdiv{
+  display:flex;
+  align-items: center;
+
+}
+.vs{
+  margin-top: 10px;
+  margin-left:10px
+}
+
+.columnaVisitante{
+  display:flex;
+
+}
+.clubVisitante{
+  margin-left: 10px;
+}
