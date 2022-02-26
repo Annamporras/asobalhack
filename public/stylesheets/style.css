@@ -105,3 +105,10 @@ body {
 .clubVisitante{
   margin-left: 10px;
 }
+
+body a {
+
+  text-decoration: none;
+  color: black;
+
+}

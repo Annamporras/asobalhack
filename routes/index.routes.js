@@ -1,10 +1,10 @@
 const router = require("express").Router();
 
-router.get("/iframe", (req, res, next) => {
+router.get("/", (req, res, next) => {
   res.render("iframe");
 });
 
-router.get("/", (req, res, next) => {
+router.get("/index", (req, res, next) => {
   res.render("index");
 });
 
