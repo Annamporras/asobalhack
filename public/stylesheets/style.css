@@ -55,6 +55,12 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.heroBanner{
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+
+}
 .cabecera img{
   height: 200px;
 }
