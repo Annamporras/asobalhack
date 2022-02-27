@@ -8,7 +8,11 @@
   display: flex;
   justify-content: space-between;
   height: 150px;
+  
 
+}
+.headerhome{
+  background-color: #3f4eaf;
 }
 
 .cajagris{
@@ -47,7 +51,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30%
+  margin-left: 15%
 
 }
 
@@ -88,24 +92,21 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  
 }
-.heroBanner{
-  display: flex;
-  justify-content: space-between;
-  height: 150px;
 
-}
 .cabecera img{
   height: 200px;
 }
 
 .icon {
-  width: 100px;
+  width: 80px;
 }
 
 .teamName {
   font-size: 50px;
-  margin-top: 50px
+  margin-top: 50px;
+  color:white;
 }
 
 .position {
@@ -115,7 +116,7 @@ body {
 }
 
 .position h1{
-  font-size: 80px;
+  font-size: 65px;
 }
 
 .trofeo {
@@ -139,6 +140,7 @@ body {
 }
 
 .columnaVisitante{
+  margin-top:20px;
   display:flex;
 
 }
@@ -159,6 +161,9 @@ body a {
   text-align: center;
   margin-top: 20px;
   width: 100%; 
+  background-color:#283270 ;
+  color: white;
+  padding: 10px;
 
 }
 
