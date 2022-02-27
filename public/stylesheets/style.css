@@ -100,7 +100,9 @@ body {
 }
 
 .icon {
-  width: 80px;
+  width: 60px;
+  display:flex;
+  justify-content: end;
 }
 
 .teamName {
@@ -117,6 +119,7 @@ body {
 
 .position h1{
   font-size: 65px;
+  color: white;
 }
 
 .trofeo {
